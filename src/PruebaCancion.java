@@ -24,7 +24,7 @@ public static void main(String[] args) {
 		}
 		//Condicion de que si se para la cancion que salga el nombre de la cancion + "stop"
 		if (primeraCancion.pararCancion()) {
-			System.out.println(primeraCancion.getTitulo() + " stop");
+			System.out.println(primeraCancion.getTitulo() + " stop.");
 		}
 		if (primeraCancion.MismaCancion(cancionClasico)) {
 			System.out.println("Parece que no son la misma canción");
